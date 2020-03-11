@@ -383,7 +383,7 @@ namespace Ficha7
         {
             Console.WriteLine("Qual é o número limite?");
             int num = int.Parse(Console.ReadLine());
-            for (int cont = 0; cont < num; cont++)
+            for (int cont = 0; cont <= num; cont++)
             {
                 if (cont % 2 == 1)
                 {

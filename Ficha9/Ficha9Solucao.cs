@@ -94,7 +94,33 @@ namespace Ficha9
         #region Exercicio 4
         public static void Exercicio4()
         {
-
+            Console.WriteLine("Introduza um número");
+            int primeOfAll = int.Parse(Console.ReadLine());
+            bool primeBool = true;
+            if (primeOfAll == 2)
+                {
+                Console.WriteLine(primeOfAll);
+                }
+            else
+            {
+                for (int i = 2; i <= primeOfAll; i++)
+                {
+                    for (int j = 2; j < i; j++)
+                    {
+                        if (i % j == 0)
+                        {
+                            primeBool = false;
+                            break;
+                        }
+                    }
+                    if (primeBool == true)
+                    {
+                        Console.WriteLine(i);
+                    }
+                    primeBool = true;
+                }
+            }
+            
         }
 
         #endregion
@@ -116,21 +142,23 @@ namespace Ficha9
         {
             Console.WriteLine("Escolha um número entre 1 e 100, e responda às seguintes perguntas com S para Sim ou N para Não");
             int divideAndConquer = 100;
+            int conquer = 50;
             var divideAndBool = "";
-            for (int d = 2; d < 50; d++)
+            bool result = false;
+            while (result = false)
             {
                 divideAndConquer = divideAndConquer / 2;
                 Console.WriteLine("É maior que " + divideAndConquer + "?");
                 divideAndBool = Console.ReadLine(); 
                 if (divideAndBool == "S")
                 {
-                    divideAndConquer = divideAndConquer + divideAndConquer / 2;
+                    divideAndConquer = conquer + divideAndConquer / 2;
                     Console.WriteLine("É maior que " + divideAndConquer + "?");
                     divideAndBool = Console.ReadLine();
                 }
                 else if (divideAndBool == "N")
                 {
-                    divideAndConquer = divideAndConquer + divideAndConquer / 2;
+                    divideAndConquer = divideAndConquer / 2;
                     Console.WriteLine("É maior que " + divideAndConquer + "?");
                     divideAndBool = Console.ReadLine();
                 }
@@ -139,6 +167,7 @@ namespace Ficha9
                     Console.WriteLine("Resposta Inválida");
                     break;
                 }
+                conquer = divideAndConquer / 2;
             }
 
             
