@@ -1,0 +1,8 @@
+C:\Team\Módulo4\Ficha8\bin\Debug\netcoreapp3.1\Ficha8.deps.json
+C:\Team\Módulo4\Ficha8\bin\Debug\netcoreapp3.1\Ficha8.dll
+C:\Team\Módulo4\Ficha8\bin\Debug\netcoreapp3.1\Ficha8.pdb
+C:\Team\Módulo4\Ficha8\obj\Debug\netcoreapp3.1\Ficha8.csprojAssemblyReference.cache
+C:\Team\Módulo4\Ficha8\obj\Debug\netcoreapp3.1\Ficha8.AssemblyInfoInputs.cache
+C:\Team\Módulo4\Ficha8\obj\Debug\netcoreapp3.1\Ficha8.AssemblyInfo.cs
+C:\Team\Módulo4\Ficha8\obj\Debug\netcoreapp3.1\Ficha8.dll
+C:\Team\Módulo4\Ficha8\obj\Debug\netcoreapp3.1\Ficha8.pdb

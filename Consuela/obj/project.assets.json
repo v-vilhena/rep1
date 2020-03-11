@@ -1,0 +1,145 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Ficha6/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Ficha6.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ficha6.dll": {}
+        }
+      },
+      "Ficha7/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Ficha7.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ficha7.dll": {}
+        }
+      },
+      "Ficha8/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Ficha8.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ficha8.dll": {}
+        }
+      },
+      "Ficha9/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Ficha9.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ficha9.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ficha6/1.0.0": {
+      "type": "project",
+      "path": "../Ficha 6/Ficha6.csproj",
+      "msbuildProject": "../Ficha 6/Ficha6.csproj"
+    },
+    "Ficha7/1.0.0": {
+      "type": "project",
+      "path": "../Ficha7/Ficha7.csproj",
+      "msbuildProject": "../Ficha7/Ficha7.csproj"
+    },
+    "Ficha8/1.0.0": {
+      "type": "project",
+      "path": "../Ficha8/Ficha8.csproj",
+      "msbuildProject": "../Ficha8/Ficha8.csproj"
+    },
+    "Ficha9/1.0.0": {
+      "type": "project",
+      "path": "../Ficha9/Ficha9.csproj",
+      "msbuildProject": "../Ficha9/Ficha9.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Ficha6 >= 1.0.0",
+      "Ficha7 >= 1.0.0",
+      "Ficha8 >= 1.0.0",
+      "Ficha9 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Vasco Vilhena\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Team\\Módulo4\\Consuela\\Consola.csproj",
+      "projectName": "Consola",
+      "projectPath": "C:\\Team\\Módulo4\\Consuela\\Consola.csproj",
+      "packagesPath": "C:\\Users\\Vasco Vilhena\\.nuget\\packages\\",
+      "outputPath": "C:\\Team\\Módulo4\\Consuela\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Vasco Vilhena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Team\\Módulo4\\Ficha 6\\Ficha6.csproj": {
+              "projectPath": "C:\\Team\\Módulo4\\Ficha 6\\Ficha6.csproj"
+            },
+            "C:\\Team\\Módulo4\\Ficha7\\Ficha7.csproj": {
+              "projectPath": "C:\\Team\\Módulo4\\Ficha7\\Ficha7.csproj"
+            },
+            "C:\\Team\\Módulo4\\Ficha8\\Ficha8.csproj": {
+              "projectPath": "C:\\Team\\Módulo4\\Ficha8\\Ficha8.csproj"
+            },
+            "C:\\Team\\Módulo4\\Ficha9\\Ficha9.csproj": {
+              "projectPath": "C:\\Team\\Módulo4\\Ficha9\\Ficha9.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

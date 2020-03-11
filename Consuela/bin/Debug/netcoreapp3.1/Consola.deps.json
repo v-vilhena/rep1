@@ -1,0 +1,69 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Consola/1.0.0": {
+        "dependencies": {
+          "Ficha6": "1.0.0",
+          "Ficha7": "1.0.0",
+          "Ficha8": "1.0.0",
+          "Ficha9": "1.0.0"
+        },
+        "runtime": {
+          "Consola.dll": {}
+        }
+      },
+      "Ficha6/1.0.0": {
+        "runtime": {
+          "Ficha6.dll": {}
+        }
+      },
+      "Ficha7/1.0.0": {
+        "runtime": {
+          "Ficha7.dll": {}
+        }
+      },
+      "Ficha8/1.0.0": {
+        "runtime": {
+          "Ficha8.dll": {}
+        }
+      },
+      "Ficha9/1.0.0": {
+        "runtime": {
+          "Ficha9.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Consola/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ficha6/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ficha7/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ficha8/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ficha9/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
