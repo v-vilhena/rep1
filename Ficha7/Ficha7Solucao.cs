@@ -198,9 +198,9 @@ namespace Ficha7
             while( i < 6) {
                 Console.WriteLine("Introduza o " + i + "º artigo");
                 var produto = Console.ReadLine();
-                Console.WriteLine("Introduza o preço do " + i + "º artigo");
+                Console.WriteLine("Introduza o preço de " + produto);
                 var preco = double.Parse(Console.ReadLine());
-                Console.WriteLine("Introduza a quantidade do " + i + "º artigo");
+                Console.WriteLine("Introduza a quantidade de " + produto);
                 var quant = double.Parse(Console.ReadLine());
 
                 double total = preco * quant;

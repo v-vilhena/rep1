@@ -12,7 +12,6 @@ namespace Ficha9
             double a = 0;
             double b = 0;
             double c = 0;
-            double d = 0;
 
             for (int i = 1; i < 4; i++)
             {
@@ -30,7 +29,7 @@ namespace Ficha9
                     c = double.Parse(Console.ReadLine());
                 }
             }
-            d = (a * b * c);
+            double d = (a * b * c);
             Console.WriteLine(a + " * " + b + " * " + c + " = " + d);
 
         }
@@ -141,35 +140,30 @@ namespace Ficha9
         public static void Exercicio6()
         {
             Console.WriteLine("Escolha um número entre 1 e 100, e responda às seguintes perguntas com S para Sim ou N para Não");
-            int divideAndConquer = 100;
-            int conquer = 50;
-            var divideAndBool = "";
-            bool result = false;
-            while (result = false)
+            int divisor = 50;
+            int aglomerado = 0;
+            var respostaFinal = "N";
+            int i = 1;
+                  
+            while (divisor > 2)
             {
-                divideAndConquer = divideAndConquer / 2;
-                Console.WriteLine("É maior que " + divideAndConquer + "?");
-                divideAndBool = Console.ReadLine(); 
-                if (divideAndBool == "S")
-                {
-                    divideAndConquer = conquer + divideAndConquer / 2;
-                    Console.WriteLine("É maior que " + divideAndConquer + "?");
-                    divideAndBool = Console.ReadLine();
-                }
-                else if (divideAndBool == "N")
-                {
-                    divideAndConquer = divideAndConquer / 2;
-                    Console.WriteLine("É maior que " + divideAndConquer + "?");
-                    divideAndBool = Console.ReadLine();
-                }
-                else
-                {
-                    Console.WriteLine("Resposta Inválida");
-                    break;
-                }
-                conquer = divideAndConquer / 2;
+                Console.WriteLine("É maior que " + (aglomerado + divisor) + "?");
+                var resposta = Console.ReadLine();
+                if (resposta == "S")
+                    aglomerado += divisor;
+                else if (resposta != "N")
+                    Console.WriteLine("Resposta inválida");
+                divisor /= 2;
             }
 
+            while (respostaFinal != "S")
+            {
+                
+                Console.WriteLine("O seu número é " + (aglomerado + i) + "?");
+                respostaFinal = Console.ReadLine();
+                i++;
+            }
+            Console.WriteLine("O seu número é " + (aglomerado + i - 1) + "!");
             
         }
         #endregion

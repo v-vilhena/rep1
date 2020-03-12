@@ -9,11 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consola", "Consuela\Consola
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ficha6", "Ficha 6\Ficha6.csproj", "{325857F9-008A-434F-9068-61B253004BA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ficha7", "Ficha7\Ficha7.csproj", "{D2B077E7-3645-48D9-915A-4583B7BBC13B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ficha7", "Ficha7\Ficha7.csproj", "{D2B077E7-3645-48D9-915A-4583B7BBC13B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ficha8", "Ficha8\Ficha8.csproj", "{1C279770-DC8A-4790-9F2D-D66D81835D2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ficha8", "Ficha8\Ficha8.csproj", "{1C279770-DC8A-4790-9F2D-D66D81835D2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ficha9", "Ficha9\Ficha9.csproj", "{6E61A74C-6BDA-4A7F-9F1E-B9B385DA21B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ficha9", "Ficha9\Ficha9.csproj", "{6E61A74C-6BDA-4A7F-9F1E-B9B385DA21B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
