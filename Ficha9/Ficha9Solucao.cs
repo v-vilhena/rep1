@@ -150,23 +150,44 @@ namespace Ficha9
                 Console.WriteLine("É maior que " + (aglomerado + divisor) + "?");
                 var resposta = Console.ReadLine();
                 if (resposta == "S")
+                {
                     aglomerado += divisor;
-                else if (resposta != "N")
-                    Console.WriteLine("Resposta inválida");
-                divisor /= 2;
+                    divisor /= 2;
+                }
+
+                else if (resposta == "N")
+                {
+                    divisor /= 2;
+                }
+                else
+                    Console.WriteLine("Resposta inválida. Apenas aceita S para Sim ou N para Não");
+                
             }
 
-            while (respostaFinal != "S")
+            while (i<4)
             {
                 
                 Console.WriteLine("O seu número é " + (aglomerado + i) + "?");
                 respostaFinal = Console.ReadLine();
-                i++;
+                if (respostaFinal == "S")
+                {
+                    Console.WriteLine("O seu número é " + (aglomerado + i) + "!");
+                    break;
+                }
+                else if (respostaFinal == "N")
+                    i++;
+                else
+                    Console.WriteLine("Resposta inválida. Apenas aceita S para Sim ou N para Não");
             }
-            Console.WriteLine("O seu número é " + (aglomerado + i - 1) + "!");
-            
+            if (respostaFinal == "N")
+                Console.WriteLine("Você não decorou bem o número.");
         }
         #endregion
+
+
+
+
+       
 
     }
 }

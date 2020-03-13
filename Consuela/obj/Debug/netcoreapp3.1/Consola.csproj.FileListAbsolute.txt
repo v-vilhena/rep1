@@ -38,3 +38,5 @@ C:\Team\Modulo4\Consuela\obj\Debug\netcoreapp3.1\Consola.AssemblyInfo.cs
 C:\Team\Modulo4\Consuela\obj\Debug\netcoreapp3.1\Consola.csproj.CopyComplete
 C:\Team\Modulo4\Consuela\obj\Debug\netcoreapp3.1\Consola.dll
 C:\Team\Modulo4\Consuela\obj\Debug\netcoreapp3.1\Consola.pdb
+C:\Team\Modulo4\Consuela\bin\Debug\netcoreapp3.1\Ficha13.dll
+C:\Team\Modulo4\Consuela\bin\Debug\netcoreapp3.1\Ficha13.pdb

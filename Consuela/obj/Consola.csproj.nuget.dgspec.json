@@ -30,6 +30,9 @@
               "C:\\Team\\Modulo4\\Ficha 6\\Ficha6.csproj": {
                 "projectPath": "C:\\Team\\Modulo4\\Ficha 6\\Ficha6.csproj"
               },
+              "C:\\Team\\Modulo4\\Ficha13\\Ficha13.csproj": {
+                "projectPath": "C:\\Team\\Modulo4\\Ficha13\\Ficha13.csproj"
+              },
               "C:\\Team\\Modulo4\\Ficha7\\Ficha7.csproj": {
                 "projectPath": "C:\\Team\\Modulo4\\Ficha7\\Ficha7.csproj"
               },
@@ -77,6 +80,58 @@
         "projectPath": "C:\\Team\\Modulo4\\Ficha 6\\Ficha6.csproj",
         "packagesPath": "C:\\Users\\Vasco Vilhena\\.nuget\\packages\\",
         "outputPath": "C:\\Team\\Modulo4\\Ficha 6\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vasco Vilhena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Team\\Modulo4\\Ficha13\\Ficha13.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Team\\Modulo4\\Ficha13\\Ficha13.csproj",
+        "projectName": "Ficha13",
+        "projectPath": "C:\\Team\\Modulo4\\Ficha13\\Ficha13.csproj",
+        "packagesPath": "C:\\Users\\Vasco Vilhena\\.nuget\\packages\\",
+        "outputPath": "C:\\Team\\Modulo4\\Ficha13\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vasco Vilhena\\AppData\\Roaming\\NuGet\\NuGet.Config",

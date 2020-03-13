@@ -1,0 +1,8 @@
+C:\Team\Modulo4\Ficha13\bin\Debug\netcoreapp3.1\Ficha13.deps.json
+C:\Team\Modulo4\Ficha13\bin\Debug\netcoreapp3.1\Ficha13.dll
+C:\Team\Modulo4\Ficha13\bin\Debug\netcoreapp3.1\Ficha13.pdb
+C:\Team\Modulo4\Ficha13\obj\Debug\netcoreapp3.1\Ficha13.csprojAssemblyReference.cache
+C:\Team\Modulo4\Ficha13\obj\Debug\netcoreapp3.1\Ficha13.AssemblyInfoInputs.cache
+C:\Team\Modulo4\Ficha13\obj\Debug\netcoreapp3.1\Ficha13.AssemblyInfo.cs
+C:\Team\Modulo4\Ficha13\obj\Debug\netcoreapp3.1\Ficha13.dll
+C:\Team\Modulo4\Ficha13\obj\Debug\netcoreapp3.1\Ficha13.pdb

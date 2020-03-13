@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Consola/1.0.0": {
         "dependencies": {
+          "Ficha13": "1.0.0",
           "Ficha6": "1.0.0",
           "Ficha7": "1.0.0",
           "Ficha8": "1.0.0",
@@ -15,6 +16,11 @@
         },
         "runtime": {
           "Consola.dll": {}
+        }
+      },
+      "Ficha13/1.0.0": {
+        "runtime": {
+          "Ficha13.dll": {}
         }
       },
       "Ficha6/1.0.0": {
@@ -41,6 +47,11 @@
   },
   "libraries": {
     "Consola/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ficha13/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

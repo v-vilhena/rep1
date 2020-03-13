@@ -1,4 +1,5 @@
-﻿using Ficha6;
+﻿using Ficha13;
+using Ficha6;
 using Ficha7;
 using Ficha8;
 using Ficha9;
@@ -55,7 +56,11 @@ namespace Consola
             //Ficha9Solucao.Exercicio3();
             //Ficha9Solucao.Exercicio4();
             //Ficha9Solucao.Exercicio5();
-            Ficha9Solucao.Exercicio6();
+            //Ficha9Solucao.Exercicio6();
+            //Ficha13Solucao.Exercicio1();
+            Ficha13Solucao.Calculadora();
+            //Ficha13Solucao.JogarAoGalo();
+            //Ficha13Solucao.JogarAForca();
 
         }
     }

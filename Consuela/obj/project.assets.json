@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Ficha13/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Ficha13.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ficha13.dll": {}
+        }
+      },
       "Ficha6/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -45,6 +55,11 @@
     }
   },
   "libraries": {
+    "Ficha13/1.0.0": {
+      "type": "project",
+      "path": "../Ficha13/Ficha13.csproj",
+      "msbuildProject": "../Ficha13/Ficha13.csproj"
+    },
     "Ficha6/1.0.0": {
       "type": "project",
       "path": "../Ficha 6/Ficha6.csproj",
@@ -68,6 +83,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Ficha13 >= 1.0.0",
       "Ficha6 >= 1.0.0",
       "Ficha7 >= 1.0.0",
       "Ficha8 >= 1.0.0",
@@ -102,6 +118,9 @@
           "projectReferences": {
             "C:\\Team\\Modulo4\\Ficha 6\\Ficha6.csproj": {
               "projectPath": "C:\\Team\\Modulo4\\Ficha 6\\Ficha6.csproj"
+            },
+            "C:\\Team\\Modulo4\\Ficha13\\Ficha13.csproj": {
+              "projectPath": "C:\\Team\\Modulo4\\Ficha13\\Ficha13.csproj"
             },
             "C:\\Team\\Modulo4\\Ficha7\\Ficha7.csproj": {
               "projectPath": "C:\\Team\\Modulo4\\Ficha7\\Ficha7.csproj"
